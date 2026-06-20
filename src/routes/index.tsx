@@ -579,7 +579,7 @@ const contactSchema = z.object({
 
 // EmailJS credentials
 const EMAILJS_SERVICE_ID = "service_i7n84gh";
-const EMAILJS_TEMPLATE_ID = "template_vg2qy68";
+const EMAILJS_TEMPLATE_ID = "template_1j5z5m5";
 const EMAILJS_PUBLIC_KEY = "nvu_-r-AfKOOXC-xQ";
 
 function ContactForm() {
