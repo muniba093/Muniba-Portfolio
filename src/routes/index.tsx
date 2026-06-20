@@ -56,9 +56,6 @@ const SKILLS = {
   ],
 };
 
-type Project = {
-  title: string; desc: string; tags: string[]; category: string; demo: string; repo: string;
-};
 
 type Project = {
   title: string; desc: string; tags: string[]; category: string; demo: string; repo: string; img: string;
