@@ -252,7 +252,10 @@ function Portfolio() {
               <span className="shimmer">Muniba</span>.dev
             </h1>
             <p className="mt-4 text-xl text-muted-foreground md:text-2xl">
-              I am <span className="font-semibold text-foreground">Muniba Akram</span> — <span className="animate-caret text-foreground">{typed}</span>
+              I am <span className="font-semibold text-foreground">Muniba Akram</span>
+            </p>
+            <p className="mt-2 text-xl text-muted-foreground md:text-2xl">
+              I am <span className="animate-caret text-foreground">{typed}</span>
             </p>
             <p className="mt-6 max-w-xl text-muted-foreground">
               Computer Science student at Women University Multan, building modern web apps,
