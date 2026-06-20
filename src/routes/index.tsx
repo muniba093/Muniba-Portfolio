@@ -248,11 +248,11 @@ function Portfolio() {
             <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card/50 px-3 py-1 text-xs font-medium text-muted-foreground">
               <span className="size-2 rounded-full bg-emerald-400 animate-pulse-ring" /> Available for projects
             </p>
-            <h1 className="font-display text-4xl font-bold leading-[1.05] md:text-6xl">
-              Hi, I'm <span className="shimmer">Muniba Akram</span>
+            <h1 className="font-display text-5xl font-bold leading-[1.05] md:text-7xl lowercase">
+              <span className="shimmer">Muniba</span>.dev
             </h1>
             <p className="mt-4 text-xl text-muted-foreground md:text-2xl">
-              I'm a <span className="font-semibold text-foreground animate-caret">{typed}</span>
+              I am <span className="font-semibold text-foreground">Muniba Akram</span> — <span className="animate-caret text-foreground">{typed}</span>
             </p>
             <p className="mt-6 max-w-xl text-muted-foreground">
               Computer Science student at Women University Multan, building modern web apps,
