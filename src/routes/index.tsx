@@ -347,11 +347,10 @@ function Portfolio() {
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {filteredProjects.map((p) => (
               <Tilt key={p.title} className="group flex flex-col overflow-hidden rounded-2xl glass ring-gradient">
-                <div className="relative aspect-[16/10] overflow-hidden bg-hero">
-                  <div className="absolute inset-0 grid place-items-center font-display text-3xl text-white/95 drop-shadow">
-                    {p.title.split(" ").map((w) => w[0]).slice(0, 3).join("")}
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                <div className="relative aspect-[16/10] overflow-hidden bg-muted">
+                  <img src={p.img} alt={p.title} loading="lazy"
+                    className="size-full object-cover transition duration-700 group-hover:scale-110" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
                 </div>
                 <div className="flex flex-1 flex-col p-5">
                   <h3 className="font-display text-lg">{p.title}</h3>
