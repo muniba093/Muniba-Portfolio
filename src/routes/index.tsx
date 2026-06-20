@@ -622,10 +622,15 @@ function ContactForm() {
           user_id: EMAILJS_PUBLIC_KEY,
           template_params: {
             from_name: form.name,
+            name: form.name,
             from_email: form.email,
+            email: form.email,
+            user_email: form.email,
             subject: form.subject || `Portfolio contact from ${form.name}`,
+            title: form.subject || `Portfolio contact from ${form.name}`,
             message: form.message,
             reply_to: form.email,
+            to_name: "Muniba",
           },
         }),
       });
