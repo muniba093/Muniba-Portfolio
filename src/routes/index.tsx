@@ -64,7 +64,7 @@ type Project = {
 
 const PROJECTS: Project[] = [
   { title: "AI Phishing Email Detector", desc: "ML/NLP classifier in Python achieving 90%+ accuracy on real-world phishing emails.", tags: ["Python", "ML", "NLP"], category: "AI", demo: "https://github.com", repo: "https://github.com", img: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?auto=format&fit=crop&w=900&q=70" },
-  { title: "Intelligent Pattern Recognition", desc: "Real-time ML pattern detection with PHP frontend and database integration. HEC Hackathon project.", tags: ["Python", "PHP", "ML"], category: "AI", demo: "https://github.com", repo: "https://github.com", img: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=70" },
+  { title: "Intelligent Pattern Recognition", desc: "Real-time ML pattern detection with PHP frontend and database integration. HEC Hackathon project.", tags: ["Python", "PHP", "ML"], category: "AI", demo: "https://github.com", repo: "https://github.com", img: patternRecognitionAsset.url },
   { title: "Sky-Scanner Front-End", desc: "Production-ready React web app with responsive design and state management (Forage simulation).", tags: ["React", "JS", "CSS"], category: "Web", demo: "https://github.com", repo: "https://github.com", img: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=70" },
   { title: "Portfolio Website", desc: "Modern responsive portfolio with glassmorphism, 3D tilt cards and smooth animations.", tags: ["React", "Tailwind"], category: "Web", demo: "https://github.com", repo: "https://github.com", img: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=900&q=70" },
 ];
