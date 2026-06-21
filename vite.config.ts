@@ -15,11 +15,13 @@ export default defineConfig({
   },
 });*/
 
-
-import { defineConfig } from 'vite'
+import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
-  build: {
-    outDir: 'dist/client'
-  }
-})
+  tanstackStart: {
+    server: { entry: "server" },
+  },
+  nitro: {
+    preset: "netlify",
+  },
+});
