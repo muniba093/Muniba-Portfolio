@@ -250,13 +250,10 @@ function Portfolio() {
             <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card/50 px-3 py-1 text-xs font-medium text-muted-foreground">
               <span className="size-2 rounded-full bg-emerald-400 animate-pulse-ring" /> Available for projects
             </p>
-            <h1 className="font-display text-5xl font-bold leading-[1.05] md:text-7xl lowercase">
-              <span className="shimmer">Muniba</span>.dev
+            <h1 className="font-display text-5xl font-bold leading-[1.05] md:text-7xl">
+              Hi, I'm <span className="text-gradient">Muniba Akram</span>
             </h1>
             <p className="mt-4 text-xl text-muted-foreground md:text-2xl">
-              I am <span className="font-semibold text-foreground">Muniba Akram</span>
-            </p>
-            <p className="mt-2 text-xl text-muted-foreground md:text-2xl">
               I am <span className="animate-caret text-foreground">{typed}</span>
             </p>
             <p className="mt-6 max-w-xl text-muted-foreground">
@@ -523,7 +520,7 @@ function Portfolio() {
 
 function Section({ id, eyebrow, title, children }: { id: string; eyebrow: string; title: string; children: React.ReactNode }) {
   return (
-    <section id={id} className="reveal py-20 md:py-24">
+    <section id={id} className="reveal py-14 md:py-18">
       <div className="mb-10">
         <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-primary">{eyebrow}</p>
         <h2 className="font-display text-3xl font-bold md:text-4xl"><span className="text-gradient">{title}</span></h2>
