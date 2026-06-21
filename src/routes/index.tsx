@@ -64,9 +64,9 @@ type Project = {
 
 const PROJECTS: Project[] = [
   { title: "AI Phishing Email Detector", desc: "ML/NLP classifier in Python achieving 90%+ accuracy on real-world phishing emails.", tags: ["Python", "ML", "NLP"], category: "AI", demo: "https://github.com", repo: "https://github.com", img: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?auto=format&fit=crop&w=900&q=70" },
-  { title: "Intelligent Pattern Recognition", desc: "Real-time ML pattern detection with PHP frontend and database integration. HEC Hackathon project.", tags: ["Python", "PHP", "ML"], category: "AI", demo: "https://github.com", repo: "https://github.com", img: patternRecognitionAsset.url },
+  { title: "Intelligent Pattern Recognition", desc: "Real-time ML pattern detection with PHP frontend and database integration. HEC Hackathon project.", tags: ["Python", "PHP", "ML"], category: "AI", demo: "https://github.com", repo: "https://github.com", img:  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReAXjtPMdHXA7jVGwsc_5nHEmh2hX0MYpilcmeLdm_dw&s=10" },
   { title: "Sky-Scanner Front-End", desc: "Production-ready React web app with responsive design and state management (Forage simulation).", tags: ["React", "JS", "CSS"], category: "Web", demo: "https://github.com", repo: "https://github.com", img: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=70" },
-  { title: "Portfolio Website", desc: "Modern responsive portfolio with glassmorphism, 3D tilt cards and smooth animations.", tags: ["React", "Tailwind"], category: "Web", demo: "https://github.com", repo: "https://github.com", img: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=900&q=70" },
+  { title: "Portfolio Website", desc: "Modern responsive portfolio with glassmorphism, 3D tilt cards and smooth animations.", tags: ["React", "Tailwind"], category: "Web", demo: "https://github.com", repo: "https://github.com/muniba093/MunibaAkram-Portfolio", img: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=900&q=70" },
 ];
 
 const PROJECT_CATS = ["All", "Web", "AI"];
@@ -216,7 +216,7 @@ function Portfolio() {
       <header className="sticky top-0 z-50 glass">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
           <a href="#home" className="font-display text-lg font-bold tracking-tight lowercase">
-            <span className="shimmer">Muniba</span>.dev
+            <span className="shimmer">Muniba</span>Muniba.dev
           </a>
           <ul className="hidden gap-8 md:flex">
             {navLinks.map(([l, h]) => (
@@ -250,14 +250,12 @@ function Portfolio() {
             <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card/50 px-3 py-1 text-xs font-medium text-muted-foreground">
               <span className="size-2 rounded-full bg-emerald-400 animate-pulse-ring" /> Available for projects
             </p>
-            <p className="font-display text-sm font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">
-              <span className="shimmer">Muniba</span>.dev
-            </p>
+          
             <h1 className="font-display text-5xl font-bold leading-[1.05] md:text-7xl whitespace-nowrap">
               <span className="text-gradient">Muniba Akram</span>
             </h1>
             <p className="mt-4 text-xl text-muted-foreground md:text-2xl">
-              I am <span className="animate-caret text-foreground">{typed}</span>
+              I am a <span className="animate-caret text-foreground">{typed}</span>
             </p>
             <p className="mt-6 max-w-xl text-muted-foreground">
               Computer Science student at Women University Multan, building modern web apps,
@@ -456,7 +454,7 @@ function Portfolio() {
       <footer className="mt-16 border-t border-border">
         <div className="mx-auto grid max-w-7xl gap-8 px-5 py-12 md:grid-cols-3">
           <div>
-            <p className="font-display text-lg font-bold"><span className="shimmer">Muniba</span>.dev</p>
+            <p className="font-display text-lg font-bold"><span className="shimmer">Muniba</span>Muniba.dev</p>
             <p className="mt-2 text-sm text-muted-foreground">Building thoughtful software at the intersection of web, AI & security.</p>
           </div>
           <div>

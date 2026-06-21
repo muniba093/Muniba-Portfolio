@@ -96,6 +96,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  
 }
 
 @utility bg-hero { background: var(--grad-hero); }
