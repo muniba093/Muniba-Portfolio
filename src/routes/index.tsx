@@ -9,6 +9,7 @@ import certBranding from "@/assets/certs/cert-branding.jpg";
 import certCeh from "@/assets/certs/cert-ceh.jpg";
 import certPython from "@/assets/certs/cert-python.jpg";
 import certSql from "@/assets/certs/cert-sql.png";
+import patternRecognitionAsset from "@/assets/pattern-recognition.jpg.asset.json";
 
 const CERTIFICATES = [
   { img: certSql, title: "Diploma in SQL", issuer: "UniAthena · Athena Global Education", date: "2026", color: "from-pink-500/30 to-fuchsia-600/30" },
