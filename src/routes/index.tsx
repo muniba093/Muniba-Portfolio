@@ -215,7 +215,7 @@ function Portfolio() {
       {/* Nav */}
       <header className="sticky top-0 z-50 glass">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
-          <a href="#home" className="font-display text-lg font-bold tracking-tight text-right block">
+          <a href="#home" className="font-display text-lg font-bold tracking-tight text-left block">
             <span className="shimmer">Muniba</span>Muniba.dev
           </a>
           <ul className="hidden gap-8 md:flex">
@@ -251,7 +251,7 @@ function Portfolio() {
               <span className="size-2 rounded-full bg-emerald-400 animate-pulse-ring" /> Available for projects
             </p>
           
-            <h1 className="font-display text-5xl font-bold leading-[1.05] md:text-7xl whitespace-nowrap">
+            <h1 className="font-display text-5xl font-bold leading-[1.05] md:text-10xl whitespace-nowrap">
               <span className="text-gradient">Muniba Akram</span>
             </h1>
             <p className="mt-4 text-xl text-muted-foreground md:text-2xl">
@@ -394,7 +394,7 @@ function Portfolio() {
 
         {/* Certificates */}
         <Section id="certificates" eyebrow="Certificates" title="Verified credentials.">
-          <div className="grid gap-6 sm:grid-cols-2">
+          <div className="grid gap-6 sm:grid-cols-3">
             {CERTIFICATES.map((c, idx) => (
               <Tilt key={c.title} className="rounded-2xl overflow-hidden glass ring-gradient" max={10}>
                 <button onClick={() => setLightbox(idx)} className="reveal group block w-full text-left">
@@ -451,10 +451,12 @@ function Portfolio() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-16 border-t border-border">
+      <footer className="mt-16 border-t border-border" >
         <div className="mx-auto grid max-w-7xl gap-8 px-5 py-12 md:grid-cols-3">
           <div>
-            <p className="font-display text-lg font-bold"><span className="shimmer">Muniba</span>Muniba.dev</p>
+<p className="font-display text-lg font-bold w-full m-0" style={{ textAlign: "left" }}>
+  <span className="shimmer">Muniba</span>Muniba.dev
+</p>
             <p className="mt-2 text-sm text-muted-foreground">Building thoughtful software at the intersection of web, AI & security.</p>
           </div>
           <div>
