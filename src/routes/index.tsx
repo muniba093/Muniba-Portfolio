@@ -75,6 +75,10 @@ const TIMELINE = [
   { date: "Apr 2026 – Present", title: "Career-Prep Fellow", org: "Amal Academy (Stanford-funded)", desc: "Selected from 4,500+ applicants for a 3-month fellowship developing leadership, communication, and problem-solving." },
   { date: "May 2026", title: "Front-End Software Engineering Simulation", org: "Skyscanner via Forage", desc: "Built a production-ready React Backpack web app with responsive design, component architecture and state management." },
 ];
+const SCHOLARSHIPS = [
+  { date: "2025", title: "Chief Minister Punjab Scholarship", desc: "Received full merit-based academic scholarship from Chief Minister Punjab." },
+  { date: "2026", title: "Prime Minister Punjab Laptop Award", desc: "Received merit-based Laptop Award from Prime Minister Punjab." },
+];
 
 const SERVICES = [
   { icon: "💻", title: "Web Development", desc: "Modern, performant web apps built with React and TypeScript." },
@@ -391,6 +395,19 @@ function Portfolio() {
             ))}
           </div>
         </Section>
+         {/* Academic Scholarships */}
+<Section id="scholarships" eyebrow="Academic Scholarships" title="Achievements & awards.">
+  <ol className="relative border-l-2 border-border pl-6 md:pl-8">
+    {SCHOLARSHIPS.map((s) => (
+      <li key={s.title} className="reveal mb-8 last:mb-0">
+        <span className="absolute -left-[9px] mt-1.5 grid size-4 place-items-center rounded-full bg-hero ring-4 ring-background animate-pulse-ring" />
+        <p className="text-xs font-medium text-primary">{s.date}</p>
+        <h3 className="mt-1 font-display text-lg">{s.title}</h3>
+        <p className="mt-2 text-sm text-muted-foreground">{s.desc}</p>
+      </li>
+    ))}
+  </ol>
+</Section>
 
         {/* Certificates */}
         <Section id="certificates" eyebrow="Certificates" title="Verified credentials.">
@@ -417,6 +434,8 @@ function Portfolio() {
             ))}
           </div>
         </Section>
+        
+       
 
         {/* Services */}
         <Section id="services" eyebrow="Services" title="How I can help.">
