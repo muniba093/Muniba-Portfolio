@@ -250,8 +250,11 @@ function Portfolio() {
             <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-border bg-card/50 px-3 py-1 text-xs font-medium text-muted-foreground">
               <span className="size-2 rounded-full bg-emerald-400 animate-pulse-ring" /> Available for projects
             </p>
-            <h1 className="font-display text-5xl font-bold leading-[1.05] md:text-7xl">
-              Hi, I'm <span className="text-gradient">Muniba Akram</span>
+            <p className="font-display text-sm font-bold tracking-[0.2em] text-muted-foreground uppercase mb-2">
+              <span className="shimmer">Muniba</span>.dev
+            </p>
+            <h1 className="font-display text-5xl font-bold leading-[1.05] md:text-7xl whitespace-nowrap">
+              <span className="text-gradient">Muniba Akram</span>
             </h1>
             <p className="mt-4 text-xl text-muted-foreground md:text-2xl">
               I am <span className="animate-caret text-foreground">{typed}</span>
