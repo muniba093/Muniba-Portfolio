@@ -215,7 +215,7 @@ function Portfolio() {
       {/* Nav */}
       <header className="sticky top-0 z-50 glass">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
-          <a href="#home" className="font-display text-lg font-bold tracking-tight">
+          <a href="#home" className="font-display text-lg font-bold tracking-tight text-right block">
             <span className="shimmer">Muniba</span>Muniba.dev
           </a>
           <ul className="hidden gap-8 md:flex">
