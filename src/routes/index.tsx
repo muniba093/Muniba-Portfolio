@@ -9,6 +9,11 @@ import certBranding from "@/assets/certs/cert-branding.jpg";
 import certCeh from "@/assets/certs/cert-ceh.jpg";
 import certPython from "@/assets/certs/cert-python.jpg";
 import certSql from "@/assets/certs/cert-sql.png";
+import certACTAI from "@/assets/certs/certACTAI.jpeg";
+import certGenerativeAI from "@/assets/certs/certGenerativeAI.jpeg";
+import certAnthropic from "@/assets/certs/certAnthropic.jpeg";
+import certCodeAlpha from "@/assets/certs/certCodeAlpha.jpeg";
+
 import patternRecognitionAsset from "@/assets/pattern-recognition.jpg.asset.json";
 
 const CERTIFICATES = [
@@ -17,6 +22,10 @@ const CERTIFICATES = [
   { img: certBranding, title: "Branding & Design Job Simulation", issuer: "Forage", date: "Jun 2026", color: "from-indigo-500/30 to-violet-600/30" },
   { img: certCeh, title: "Certified Ethical Hacker (CEH)", issuer: "EC-Council", date: "Sep 2025", color: "from-rose-500/30 to-red-600/30" },
   { img: certPython, title: "Python for Beginners", issuer: "Simplilearn SkillUp", date: "Apr 2026", color: "from-amber-500/30 to-orange-600/30" },
+  { img: certACTAI, title: "ACT AI", issuer: "AXI Technologies", date: "Jul 2026", color: "from-amber-500/30 to-orange-600/30" },
+  { img: certGenerativeAI, title: "Generative AI", issuer: "PAK-ANGELS", date: "Jun 2026", color: "from-amber-500/30 to-orange-600/30" }
+ {  img: certAnthropic, title: "Anthropic", issuer: "Anthropic", date: "Jul 2026", color: "from-amber-500/30 to-orange-600/30" }
+  { img: certCodeAlpha, title: "Full-Stack Development", issuer: "Code Alpha", date: "Aug 2026", color: "from-amber-500/30 to-orange-600/30" }
 ];
 
 export const Route = createFileRoute("/")({
