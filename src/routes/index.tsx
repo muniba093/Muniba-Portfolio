@@ -23,9 +23,9 @@ const CERTIFICATES = [
   { img: certCeh, title: "Certified Ethical Hacker (CEH)", issuer: "EC-Council", date: "Sep 2025", color: "from-rose-500/30 to-red-600/30" },
   { img: certPython, title: "Python for Beginners", issuer: "Simplilearn SkillUp", date: "Apr 2026", color: "from-amber-500/30 to-orange-600/30" },
   { img: certACTAI, title: "ACT AI", issuer: "AXI Technologies", date: "Jul 2026", color: "from-amber-500/30 to-orange-600/30" },
-  { img: certGenerativeAI, title: "Generative AI", issuer: "PAK-ANGELS", date: "Jun 2026", color: "from-amber-500/30 to-orange-600/30" }
- {  img: certAnthropic, title: "Anthropic", issuer: "Anthropic", date: "Jul 2026", color: "from-amber-500/30 to-orange-600/30" }
-  { img: certCodeAlpha, title: "Full-Stack Development", issuer: "Code Alpha", date: "Aug 2026", color: "from-amber-500/30 to-orange-600/30" }
+  { img: certGenerativeAI, title: "Generative AI", issuer: "PAK-ANGELS", date: "Jun 2026", color: "from-amber-500/30 to-orange-600/30" },
+ {  img: certAnthropic, title: "Claude", issuer: "Anthropic", date: "Jul 2026", color: "from-amber-500/30 to-orange-600/30" },
+  { img: certCodeAlpha, title: "Full-Stack Development", issuer: "Code Alpha", date: "Aug 2026", color: "from-amber-500/30 to-orange-600/30" },
 ];
 
 export const Route = createFileRoute("/")({
