@@ -504,7 +504,7 @@ function Portfolio() {
               {[
                 { label: "GitHub", href: "https://github.com/muniba093" },
                 { label: "LinkedIn", href: "https://linkedin.com/in/muniba-akram-83586b358" },
-                { label: "Email", href: "mailto:munibaakram112@gmail.com" },
+                { label: "Email", href: "mailto:munibaakram093@gmail.com" },
                 { label: "X", href: "#" },
               ].map((s) => (
                 <a key={s.label} href={s.href} aria-label={s.label}
