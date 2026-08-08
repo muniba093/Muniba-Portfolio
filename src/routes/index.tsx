@@ -17,15 +17,16 @@ import certCodeAlpha from "@/assets/certs/certCodeAlpha.jpeg";
 import patternRecognitionAsset from "@/assets/pattern-recognition.jpg.asset.json";
 
 const CERTIFICATES = [
-  { img: certSql, title: "Diploma in SQL", issuer: "UniAthena · Athena Global Education", date: "2026", color: "from-pink-500/30 to-fuchsia-600/30" },
-  { img: certSkyscanner, title: "Front-End Software Engineering", issuer: "Skyscanner × Forage", date: "May 2026", color: "from-sky-500/30 to-blue-600/30" },
-  { img: certBranding, title: "Branding & Design Job Simulation", issuer: "Forage", date: "Jun 2026", color: "from-indigo-500/30 to-violet-600/30" },
-  { img: certCeh, title: "Certified Ethical Hacker (CEH)", issuer: "EC-Council", date: "Sep 2025", color: "from-rose-500/30 to-red-600/30" },
-  { img: certPython, title: "Python for Beginners", issuer: "Simplilearn SkillUp", date: "Apr 2026", color: "from-amber-500/30 to-orange-600/30" },
+    { img: certCodeAlpha, title: "Full-Stack Development", issuer: "Code Alpha", date: "Aug 2026", color: "from-amber-500/30 to-orange-600/30" },
+   {  img: certAnthropic, title: "Claude", issuer: "Anthropic", date: "Jul 2026", color: "from-amber-500/30 to-orange-600/30" },
   { img: certACTAI, title: "ACT AI", issuer: "AXI Technologies", date: "Jul 2026", color: "from-amber-500/30 to-orange-600/30" },
-  { img: certGenerativeAI, title: "Generative AI", issuer: "PAK-ANGELS", date: "Jun 2026", color: "from-amber-500/30 to-orange-600/30" },
- {  img: certAnthropic, title: "Claude", issuer: "Anthropic", date: "Jul 2026", color: "from-amber-500/30 to-orange-600/30" },
-  { img: certCodeAlpha, title: "Full-Stack Development", issuer: "Code Alpha", date: "Aug 2026", color: "from-amber-500/30 to-orange-600/30" },
+  { img: certBranding, title: "Branding & Design Job Simulation", issuer: "Forage", date: "Jun 2026", color: "from-indigo-500/30 to-violet-600/30" },
+    { img: certGenerativeAI, title: "Generative AI", issuer: "PAK-ANGELS", date: "Jun 2026", color: "from-amber-500/30 to-orange-600/30" },
+  { img: certSkyscanner, title: "Front-End Software Engineering", issuer: "Skyscanner × Forage", date: "May 2026", color: "from-sky-500/30 to-blue-600/30" },
+  { img: certPython, title: "Python for Beginners", issuer: "Simplilearn SkillUp", date: "Apr 2026", color: "from-amber-500/30 to-orange-600/30" },
+    { img: certSql, title: "Diploma in SQL", issuer: "UniAthena · Athena Global Education", date: "Mar 2026", color: "from-pink-500/30 to-fuchsia-600/30" },
+ { img: certCeh, title: "Certified Ethical Hacker (CEH)", issuer: "EC-Council", date: "Sep 2025", color: "from-rose-500/30 to-red-600/30" },
+
 ];
 
 export const Route = createFileRoute("/")({
@@ -81,8 +82,10 @@ const PROJECTS: Project[] = [
 const PROJECT_CATS = ["All", "Web", "AI"];
 
 const TIMELINE = [
-  { date: "Apr 2026 – Present", title: "Career-Prep Fellow", org: "Amal Academy (Stanford-funded)", desc: "Selected from 4,500+ applicants for a 3-month fellowship developing leadership, communication, and problem-solving." },
-  { date: "May 2026", title: "Front-End Software Engineering Simulation", org: "Skyscanner via Forage", desc: "Built a production-ready React Backpack web app with responsive design, component architecture and state management." },
+  { date: "Jul 2026", title: "Full-Stack Development", org: "CodeAlpha", desc: "Selected from 4,500+ applicants for a 3-month fellowship developing leadership, communication, and problem-solving." },
+  { date: "Jun 2026", title: "Branding & design Stimulation", org: "Forage", desc: "Built a production-ready React Backpack web app with responsive design, component architecture and state management." },
+    { date: "May 2026 - June 2026", title: "Front-End Software Engineering Simulation", org: "Skyscanner via Forage", desc: "Built a production-ready React Backpack web app with responsive design, component architecture and state management." },
+  { date: "Apr 2026 – July 2026", title: "Career-Prep Fellow", org: "Amal Academy (Stanford-funded)", desc: "Selected from 4,500+ applicants for a 3-month fellowship developing leadership, communication, and problem-solving." },
 ];
 const SCHOLARSHIPS = [
   { date: "2025", title: "Chief Minister Punjab Scholarship", desc: "Received full merit-based academic scholarship from Chief Minister Punjab." },
