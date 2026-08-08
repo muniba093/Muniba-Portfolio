@@ -82,8 +82,7 @@ const PROJECTS: Project[] = [
 const PROJECT_CATS = ["All", "Web", "AI"];
 
 const TIMELINE = [
-  { date: "Jul 2026", title: "Full-Stack Development", org: "CodeAlpha", desc: "Selected from 4,500+ applicants for a 3-month fellowship developing leadership, communication, and problem-solving." },
-  { date: "Jun 2026", title: "Branding & design Stimulation", org: "Forage", desc: "Built a production-ready React Backpack web app with responsive design, component architecture and state management." },
+  { date: "Jul 2026", title: "Full-Stack Development", org: "CodeAlpha", desc: "Built responsive, scalable web applications by developing modern frontends, secure backend APIs, database integrations, authentication, and deployment workflows." },
     { date: "May 2026 - June 2026", title: "Front-End Software Engineering Simulation", org: "Skyscanner via Forage", desc: "Built a production-ready React Backpack web app with responsive design, component architecture and state management." },
   { date: "Apr 2026 – July 2026", title: "Career-Prep Fellow", org: "Amal Academy (Stanford-funded)", desc: "Selected from 4,500+ applicants for a 3-month fellowship developing leadership, communication, and problem-solving." },
 ];
